@@ -6,9 +6,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrderSummaryComponent implements OnInit {
 
+  rated = false;
+  
   constructor() { }
 
   ngOnInit() {
+  }
+
+  rate() {
+    this.rated = true;
   }
 
 }
